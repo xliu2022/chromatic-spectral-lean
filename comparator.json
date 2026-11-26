@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "ChromaticSpectral.RGraph.theorem_1_3",
+    "ChromaticSpectral.theorem_1_4",
+    "ChromaticSpectral.chromatic_explicit_bound",
+    "ChromaticSpectral.chromatic_explicit_eq_iff",
+    "ChromaticSpectral.corollary_1_5",
+    "ChromaticSpectral.exists_balanced_complete"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"],
+  "enable_nanoda": true
+}

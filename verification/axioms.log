@@ -1,0 +1,28 @@
+ChromaticSpectral.RGraph.theorem_1_3.{u, v} {V : Type u} {W : Type v} [DecidableEq V] [DecidableEq W] [Fintype V]
+  [Fintype W] {r k : ℕ} (hr : 4 ≤ r) (hk : 2 ≤ k) {p : ℝ} (hp : 1 ≤ p) (hn : (r - 1) * k < Fintype.card V)
+  (hcard : Fintype.card V = Fintype.card W) (G : ChromaticSpectral.RGraph V r) (T : ChromaticSpectral.RGraph W r)
+  (hG : G.Colorable k) (hT : T.IsBalancedComplete k) :
+  G.pSpectralRadius p ≤ T.pSpectralRadius p ∧ (G.pSpectralRadius p = T.pSpectralRadius p ↔ G.IsIsomorphic T)
+ChromaticSpectral.theorem_1_4.{u} {V : Type u} [DecidableEq V] [Fintype V] {r k : ℕ} (G : ChromaticSpectral.RGraph V r)
+  (hG : G.IsBalancedComplete k) (hr : 4 ≤ r) (hk : 2 ≤ k) (hN : (r - 1) * k < Fintype.card V) {p : ℝ} (hp : 1 ≤ p) :
+  G.pSpectralRadius p ≤ ChromaticSpectral.explicitBound r k (Fintype.card V) p ∧
+    (G.pSpectralRadius p = ChromaticSpectral.explicitBound r k (Fintype.card V) p ↔ k ∣ Fintype.card V)
+ChromaticSpectral.chromatic_explicit_bound.{u} {V : Type u} [DecidableEq V] [Fintype V] {r k : ℕ}
+  (G : ChromaticSpectral.RGraph V r) (hG : G.Colorable k) (hr : 4 ≤ r) (hk : 2 ≤ k) (hn : (r - 1) * k < Fintype.card V)
+  {p : ℝ} (hp : 1 ≤ p) : G.pSpectralRadius p ≤ ChromaticSpectral.explicitBound r k (Fintype.card V) p
+ChromaticSpectral.chromatic_explicit_eq_iff.{u, v} {V : Type u} {W : Type v} [DecidableEq V] [DecidableEq W] [Fintype V]
+  [Fintype W] {r k : ℕ} (G : ChromaticSpectral.RGraph V r) (T : ChromaticSpectral.RGraph W r) (hG : G.Colorable k)
+  (hT : T.IsBalancedComplete k) (hr : 4 ≤ r) (hk : 2 ≤ k) (hn : (r - 1) * k < Fintype.card V)
+  (hcard : Fintype.card V = Fintype.card W) {p : ℝ} (hp : 1 ≤ p) :
+  G.pSpectralRadius p = ChromaticSpectral.explicitBound r k (Fintype.card V) p ↔ k ∣ Fintype.card V ∧ G.IsIsomorphic T
+ChromaticSpectral.corollary_1_5.{u} {V : Type u} [DecidableEq V] [Fintype V] {r k : ℕ}
+  (G : ChromaticSpectral.RGraph V r) (hr : 4 ≤ r) (hk : 2 ≤ k) (hn : (r - 1) * k < Fintype.card V) {p : ℝ} (hp : 1 ≤ p)
+  (hspectral : ChromaticSpectral.explicitBound r k (Fintype.card V) p < G.pSpectralRadius p) : ¬G.Colorable k
+ChromaticSpectral.exists_balanced_complete.{u} {V : Type u} [DecidableEq V] [Fintype V] {r k : ℕ} (hr : 4 ≤ r)
+  (hk : 2 ≤ k) (hn : (r - 1) * k < Fintype.card V) : ∃ T, T.IsBalancedComplete k
+'ChromaticSpectral.RGraph.theorem_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ChromaticSpectral.theorem_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ChromaticSpectral.chromatic_explicit_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ChromaticSpectral.chromatic_explicit_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ChromaticSpectral.corollary_1_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ChromaticSpectral.exists_balanced_complete' depends on axioms: [propext, Classical.choice, Quot.sound]

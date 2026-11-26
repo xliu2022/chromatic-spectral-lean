@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "rebuilt_without_project_compilation_artifacts": true,
+  "reused_pinned_third_party_dependency_cache": true,
+  "mathlib_actual_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "delivered_lean_sources_match_clean_build": true,
+  "lean_source_files": 57,
+  "lean_source_lines": 7467,
+  "verification_time_utc": "2026-11-26T05:20:23.081048+00:00"
+}

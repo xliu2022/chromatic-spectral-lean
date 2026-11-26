@@ -1,0 +1,649 @@
+✔ [8931/8984] Built ChromaticSpectral.Basic (4.4s)
+✔ [8932/8984] Built ChromaticSpectral.OneSignChange (10s)
+⚠ [8933/8984] Built ChromaticSpectral.ElementarySymmetric (10s)
+warning: ChromaticSpectral/ElementarySymmetric.lean:97:5: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8934/8984] Built ChromaticSpectral.SpectralBasic (10s)
+warning: ChromaticSpectral/SpectralBasic.lean:16:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.PWeights.apply_rpow_le_one`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/SpectralBasic.lean:60:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.RGraph.edgePolynomial_nonneg`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/SpectralBasic.lean:68:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.RGraph.continuous_polyform`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/SpectralBasic.lean:72:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.RGraph.edgePolynomial_mono`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/SpectralBasic.lean:75:9: Variable name `e` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _e
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ChromaticSpectral/SpectralBasic.lean:81:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.RGraph.edgePolynomial_const`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/SpectralBasic.lean:90:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.RGraph.edgePolynomial_smul`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/SpectralBasic.lean:101:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.RGraph.polyform_le_abs`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8935/8984] Built ChromaticSpectral.RealChoose (11s)
+⚠ [8936/8984] Built ChromaticSpectral.Coloring (11s)
+warning: ChromaticSpectral/Coloring.lean:38:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.classSize_sum`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/Coloring.lean:46:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.classSize_le_card`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/Coloring.lean:50:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.classSize_eq_zero_iff`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/Coloring.lean:55:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.RGraph.colorable_mono`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/Coloring.lean:66:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.not_nonmono_iff`:
+  [DecidableEq V]
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8937/8984] Built ChromaticSpectral.Interpolation (12s)
+✔ [8938/8984] Built ChromaticSpectral.TruncatedMoments (13s)
+⚠ [8939/8984] Built ChromaticSpectral.Isomorphism (9.3s)
+warning: ChromaticSpectral/Isomorphism.lean:17:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.PWeights.comp_equiv`:
+  [DecidableEq V]
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8940/8984] Built ChromaticSpectral.Holder (13s)
+warning: ChromaticSpectral/Holder.lean:27:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.RGraph.edgePolynomial_holder`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8941/8984] Built ChromaticSpectral.CompletePolynomial (12s)
+warning: ChromaticSpectral/CompletePolynomial.lean:19:8: automatically included section variable(s) unused in theorem `ChromaticSpectral.mem_classSet`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/CompletePolynomial.lean:24:8: automatically included section variable(s) unused in theorem `ChromaticSpectral.classSet_card`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/CompletePolynomial.lean:52:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ChromaticSpectral/CompletePolynomial.lean:55:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ChromaticSpectral/CompletePolynomial.lean:59:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ChromaticSpectral/CompletePolynomial.lean:62:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ChromaticSpectral/CompletePolynomial.lean:64:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [8942/8984] Built ChromaticSpectral.EsymmConvolution (13s)
+⚠ [8943/8984] Built ChromaticSpectral.Normalization (13s)
+warning: ChromaticSpectral/Normalization.lean:15:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.PWeights.normalize`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/Normalization.lean:86:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.RGraph.polyform_strictMono`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8944/8984] Built ChromaticSpectral.OrderedSign (14s)
+⚠ [8945/8984] Built ChromaticSpectral.TwoCoordinate (16s)
+warning: ChromaticSpectral/TwoCoordinate.lean:40:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.sum_pair_covariance`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/TwoCoordinate.lean:128:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.sum_sq_sub`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8946/8984] Built ChromaticSpectral.TruncatedSupport (14s)
+⚠ [8947/8984] Built ChromaticSpectral.Curvature (18s)
+warning: ChromaticSpectral/Curvature.lean:156:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ChromaticSpectral/Curvature.lean:167:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ChromaticSpectral/Curvature.lean:194:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ChromaticSpectral/Curvature.lean:243:24: This simp argument is unused:
+  derivative_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [curvatureCertificate, curvatureDelta, curvatureA, ascPochhammer_succ_right, derivative_mul,
+    derivative_add, derivative_X, derivative_natCast, derivative_zero, mul_zero, zero_mul, add_zero, zero_add, mul_one,
+    one_mul, Nat.cast_add, Nat.cast_one, hs1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/Curvature.lean:243:40: This simp argument is unused:
+  derivative_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [curvatureCertificate, curvatureDelta, curvatureA, ascPochhammer_succ_right, derivative_mul,
+    derivative_add, derivative_X, derivative_natCast, derivative_one, mul_zero, zero_mul, add_zero, zero_add, mul_one,
+    one_mul, Nat.cast_add, Nat.cast_one, hs1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/Curvature.lean:243:57: This simp argument is unused:
+  mul_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [curvatureCertificate, curvatureDelta, curvatureA, ascPochhammer_succ_right, derivative_mul,
+    derivative_add, derivative_X, derivative_natCast, derivative_one, derivative_zero, zero_mul, add_zero, zero_add,
+    mul_one, one_mul, Nat.cast_add, Nat.cast_one, hs1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/Curvature.lean:243:67: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [curvatureCertificate, curvatureDelta, curvatureA, ascPochhammer_succ_right, derivative_mul,
+    derivative_add, derivative_X, derivative_natCast, derivative_one, derivative_zero, mul_zero, add_zero, zero_add,
+    mul_one, one_mul, Nat.cast_add, Nat.cast_one, hs1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/Curvature.lean:244:14: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [curvatureCertificate, curvatureDelta, curvatureA, ascPochhammer_succ_right, derivative_mul,
+    derivative_add, derivative_X, derivative_natCast, derivative_one, derivative_zero, mul_zero, zero_mul, add_zero,
+    mul_one, one_mul, Nat.cast_add, Nat.cast_one, hs1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/Curvature.lean:244:33: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [curvatureCertificate, curvatureDelta, curvatureA, ascPochhammer_succ_right, derivative_mul,
+    derivative_add, derivative_X, derivative_natCast, derivative_one, derivative_zero, mul_zero, zero_mul, add_zero,
+    zero_add, mul_one, Nat.cast_add, Nat.cast_one, hs1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/Curvature.lean:270:27: This simp argument is unused:
+  Pi.div_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.pow_apply, Pi.mul_apply, id_eq, Nat.cast_add, Nat.cast_one, Nat.add_sub_cancel, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/Curvature.lean:270:41: This simp argument is unused:
+  Pi.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.pow_apply, Pi.div_apply, id_eq, Nat.cast_add, Nat.cast_one, Nat.add_sub_cancel, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/Curvature.lean:274:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ChromaticSpectral/Curvature.lean:274:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ChromaticSpectral/Curvature.lean:310:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/Curvature.lean:373:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ChromaticSpectral/Curvature.lean:373:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8948/8984] Built ChromaticSpectral.Averaging (8.9s)
+warning: ChromaticSpectral/Averaging.lean:35:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.pairAverage_nonneg`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/Averaging.lean:60:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.esymmOn_mono_set`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/Averaging.lean:69:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.esymmOn_strictMono_set`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8949/8984] Built ChromaticSpectral.ClassMove (12s)
+warning: ChromaticSpectral/ClassMove.lean:39:10: This simp argument is unused:
+  Function.update_of_ne hw
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hw]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/ClassMove.lean:41:65: Variable name `hj` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hj
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ChromaticSpectral/ClassMove.lean:47:10: This simp argument is unused:
+  Function.update_of_ne hw
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hw]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/ClassMove.lean:56:10: This simp argument is unused:
+  Function.update_of_ne hw
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hw]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8950/8984] Built ChromaticSpectral.SpectralTransfer (13s)
+warning: ChromaticSpectral/SpectralTransfer.lean:19:5: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8951/8984] Built ChromaticSpectral.BalancedPartitions (15s)
+warning: ChromaticSpectral/BalancedPartitions.lean:25:8: automatically included section variable(s) unused in theorem `ChromaticSpectral.mem_largeClasses`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/BalancedPartitions.lean:29:8: automatically included section variable(s) unused in theorem `ChromaticSpectral.mem_largeVertices`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8952/8984] Built ChromaticSpectral.LocalBinomial (20s)
+⚠ [8953/8984] Built ChromaticSpectral.SymmetricMean (17s)
+warning: ChromaticSpectral/SymmetricMean.lean:96:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/SymmetricMean.lean:119:17: This simp argument is unused:
+  Nat.zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_zero, Nat.choose_zero_right, Nat.choose_one_right, pow_zero, pow_one, mul_one, one_mul,
+    esymmOn_one, hc, sub_self, mul_zero, zero_add] at h ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/SymmetricMean.lean:120:36: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.zero_add, Nat.cast_zero, Nat.choose_zero_right, Nat.choose_one_right, pow_zero, pow_one,
+    mul_one, esymmOn_one, hc, sub_self, mul_zero, zero_add] at h ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/SymmetricMean.lean:140:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/SymmetricMean.lean:140:47: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/SymmetricMean.lean:176:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ChromaticSpectral/SymmetricMean.lean:166:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.sum_endpoint_values`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/SymmetricMean.lean:203:65: This simp argument is unused:
+  hlh.ne'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hv, hxv, hlh.ne]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/SymmetricMean.lean:208:65: This simp argument is unused:
+  hlh.ne'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hv, hyv, hlh.ne]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/SymmetricMean.lean:334:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp only [y, sum_twoUpdate hu hv huv, hab, sub_self, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: ChromaticSpectral/SymmetricMean.lean:354:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp only [y, twoUpdate_apply_left x huv, hal, lt_self_iff_false] at h
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: ChromaticSpectral/SymmetricMean.lean:357:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp only [y, twoUpdate_apply_right, hbh', lt_self_iff_false] at h
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+✔ [8954/8984] Built ChromaticSpectral.GlobalBalancing (8.3s)
+⚠ [8955/8984] Built ChromaticSpectral.CompleteAveraging (9.9s)
+warning: ChromaticSpectral/CompleteAveraging.lean:48:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.RGraph.exists_positive_edge`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/CompleteAveraging.lean:64:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.exists_subset_erase_pair_containing`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8956/8984] Built ChromaticSpectral.BalancedIsomorphism (7.0s)
+warning: ChromaticSpectral/BalancedIsomorphism.lean:44:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.exists_colorPreservingEquiv_of_classSize`:
+  [DecidableEq V]
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8957/8984] Built ChromaticSpectral.SemanticChecks (8.3s)
+✔ [8958/8984] Built ChromaticSpectral.ChooseConvexity (17s)
+⚠ [8959/8984] Built ChromaticSpectral.LocalBalancing (9.8s)
+warning: ChromaticSpectral/LocalBalancing.lean:207:32: Variable name `hj` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hj
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8960/8984] Built ChromaticSpectral.Positivity (7.2s)
+warning: ChromaticSpectral/Positivity.lean:20:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.esymmOn_eq_zero_of_support_subset`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/Positivity.lean:33:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.esymmOn_pos_of_positive_subset`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8961/8984] Built ChromaticSpectral.LocalizationNumerics (8.7s)
+warning: ChromaticSpectral/LocalizationNumerics.lean:117:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8962/8984] Built ChromaticSpectral.Endpoint (11s)
+warning: ChromaticSpectral/Endpoint.lean:115:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/Endpoint.lean:191:43: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ChromaticSpectral/Endpoint.lean:191:43: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ChromaticSpectral/Endpoint.lean:267:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ChromaticSpectral/Endpoint.lean:267:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [8963/8984] Built ChromaticSpectral.LocalBoundary (8.6s)
+✔ [8964/8984] Built ChromaticSpectral.ExtremalColoring (7.3s)
+⚠ [8965/8984] Built ChromaticSpectral.ClassStationarity (9.3s)
+warning: ChromaticSpectral/ClassStationarity.lean:16:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.esymmOn_twoUpdate_one_sub`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/ClassStationarity.lean:31:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.twoUpdate_comm`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/ClassStationarity.lean:120:15: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8966/8984] Built ChromaticSpectral.NonemptyComplete (6.8s)
+warning: ChromaticSpectral/NonemptyComplete.lean:49:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.rank_le_card_of_chromatic_threshold`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8967/8984] Built ChromaticSpectral.LocalRatios (7.8s)
+⚠ [8968/8984] Built ChromaticSpectral.BernsteinBound (9.6s)
+warning: ChromaticSpectral/BernsteinBound.lean:116:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/BernsteinBound.lean:244:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/BernsteinBound.lean:247:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/BernsteinBound.lean:250:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/BernsteinBound.lean:296:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/BernsteinBound.lean:362:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/BernsteinBound.lean:426:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ChromaticSpectral/BernsteinBound.lean:426:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [8969/8984] Built ChromaticSpectral.WeightedBinomial (8.6s)
+⚠ [8970/8984] Built ChromaticSpectral.ClassOrder (7.0s)
+warning: ChromaticSpectral/ClassOrder.lean:15:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.esymmOn_erase_pair_pos`:
+  [Nonempty V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8971/8984] Built ChromaticSpectral.LocalCross (5.5s)
+✔ [8972/8984] Built ChromaticSpectral.BinomialJensen (6.1s)
+✔ [8973/8984] Built ChromaticSpectral.ConstantBlock (5.6s)
+✔ [8974/8984] Built ChromaticSpectral.ClassLocalization (5.4s)
+⚠ [8975/8984] Built ChromaticSpectral.LocalMass (5.5s)
+warning: ChromaticSpectral/LocalMass.lean:98:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ChromaticSpectral/LocalMass.lean:107:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ChromaticSpectral/LocalMass.lean:104:15: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ChromaticSpectral/LocalMass.lean:98:19: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ChromaticSpectral/LocalMass.lean:107:19: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8976/8984] Built ChromaticSpectral.ExplicitTheorem (6.1s)
+warning: ChromaticSpectral/ExplicitTheorem.lean:32:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ChromaticSpectral/ExplicitTheorem.lean:33:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ChromaticSpectral/ExplicitTheorem.lean:46:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.BalancedColoring.floor_ge`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ChromaticSpectral/ExplicitTheorem.lean:46:51: Variable name `hc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ChromaticSpectral/ExplicitTheorem.lean:139:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ChromaticSpectral/ExplicitTheorem.lean:139:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ChromaticSpectral/ExplicitTheorem.lean:139:15: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [if_neg (show Fintype.card V / k ≠ Fintype.card V / k + 1 by omega), ite_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ChromaticSpectral/ExplicitTheorem.lean:149:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: ChromaticSpectral/ExplicitTheorem.lean:175:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ChromaticSpectral/ExplicitTheorem.lean:178:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ChromaticSpectral/ExplicitTheorem.lean:201:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: ChromaticSpectral/ExplicitTheorem.lean:210:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hlarge] at hh
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: ChromaticSpectral/ExplicitTheorem.lean:291:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8977/8984] Built ChromaticSpectral.LocalLayerIdentity (4.4s)
+⚠ [8978/8984] Built ChromaticSpectral.LocalVectorBase (4.5s)
+warning: ChromaticSpectral/LocalVectorBase.lean:59:0: automatically included section variable(s) unused in theorem `ChromaticSpectral.sum_const_on`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8979/8984] Built ChromaticSpectral.LocalVectorSmoothing (9.1s)
+✔ [8980/8984] Built ChromaticSpectral.ExtremalBalanced (5.0s)
+⚠ [8981/8984] Built ChromaticSpectral.Theorem13 (4.1s)
+warning: ChromaticSpectral/Theorem13.lean:36:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: ChromaticSpectral/Theorem13.lean:55:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8982/8984] Built ChromaticSpectral.Main (4.3s)
+✔ [8983/8984] Built ChromaticSpectral (3.9s)
+Build completed successfully (8984 jobs).

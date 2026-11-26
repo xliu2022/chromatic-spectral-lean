@@ -1,0 +1,86 @@
+version: "v0.4"
+
+project:
+  name: "The spectral radius of weakly colourable uniform hypergraphs"
+  description: >-
+    For r ≥ 4, k ≥ 2, n > (r − 1)k and every real p ≥ 1, the balanced
+    complete weakly k-colourable r-uniform hypergraph on n vertices uniquely
+    maximizes the p-spectral radius up to isomorphism. Its spectral radius
+    satisfies an explicit binomial upper bound, with equality exactly when
+    k divides n. Together these results characterize equality in the explicit
+    bound for every weakly k-colourable graph and yield a spectral lower bound
+    on the chromatic number. This formalizes Theorems 1.3 and 1.4 and
+    Corollary 1.5 of Liu and Luo.
+  authors: ["Xizhi Liu"]
+  responsible_maintainers: ["Xizhi Liu"]
+  license: "Apache-2.0"
+
+classification:
+  arxiv: ["math.CO"]
+  msc2020: ["05C65", "05C50", "05C35"]
+
+sources:
+  - title: "The spectral radius of k-chromatic r-graphs"
+    authors: ["Xizhi Liu", "Junchi Luo"]
+    type: paper
+    id: "arXiv:2605.14755v1"
+    location: "https://arxiv.org/abs/2605.14755v1"
+    relationship: formalizes
+    note: "Theorems 1.3 and 1.4, their equality cases, and Corollary 1.5."
+
+related_formalizations:
+  - id: "https://github.com/xliu2022/improved-sidorenko-lean/tree/ba6f109bf01436ca15e55fdf5d35dbea85ffd9c9"
+    relationship: adapts
+    note: >-
+      The finite uniform hypergraph representation in ChromaticSpectral.Basic
+      follows this earlier Lean development. The spectral radius, colouring
+      bounds and extremal proofs are developed in the present repository.
+
+status:
+  scope: >-
+    The six compared declarations cover both main theorems, the combined
+    explicit bound and its equality criterion, Corollary 1.5, and existence of
+    a balanced complete reference graph. The results cover real p ≥ 1,
+    including the endpoint p = 1. The r = 3 case and auxiliary results
+    outside these theorems, such as the additional branch of Proposition 6.2,
+    lie outside the formalization.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+
+automation:
+  methods:
+    - method: other
+      models: ["OpenAI GPT"]
+      tool_setup: >-
+        The maintainer reports that GPT was used for the original Lean proof
+        development. A more specific model version and a breakdown of its work
+        on individual lemmas were not supplied.
+    - method: agent
+      models: ["OpenAI GPT-6"]
+      framework: "OpenAI Codex"
+      tool_setup: >-
+        Prepared the independent Challenge from the mathematical definitions
+        and theorem signatures, connected the Solution to the existing proofs,
+        and checked the submission files against the Palomar specification.
+
+fidelity:
+  divergences: >-
+    The paper's k-chromatic condition is weak k-colourability. The reference
+    graph may use any finite vertex type of the same order. The development
+    proves existence and uniqueness up to isomorphism of balanced complete
+    representatives. It optimizes the polyform over nonnegative unit
+    p-weights. Taking absolute values and existence of a maximizer give the
+    paper's signed-sphere formulation in the theorem range. The auxiliary
+    zero in the set of spectral values handles empty vertex types.
+    Several intermediate arguments use finite interpolation or polynomial
+    coefficient comparisons. AUDIT.md describes the correspondence.
+
+review:
+  status: "agent-reviewed"
+  notes: >-
+    AUDIT.md compares the graph definitions, hypotheses, normalizations and
+    equality cases with the paper. The proof-development build and transitive
+    axiom audit for the six recorded declarations are documented under
+    verification/. Codex checked the statements used for this submission
+    against the cited version. Independent human review has not been documented.

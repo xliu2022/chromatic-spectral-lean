@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-11-26T05:20:23.081048+00:00",
+  "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+  "mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "lean_source_files": 57,
+  "lean_source_lines": 7467,
+  "axiom_audit": {
+    "ChromaticSpectral.RGraph.theorem_1_3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ChromaticSpectral.theorem_1_4": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ChromaticSpectral.chromatic_explicit_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ChromaticSpectral.chromatic_explicit_eq_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ChromaticSpectral.corollary_1_5": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ChromaticSpectral.exists_balanced_complete": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "source_sha256": {
+    "Audit.lean": "06e0977c89d040fdb7c195e549f20b6aaa1adeb9b0368a53ecc1f56fa5ffb9ce",
+    "ChromaticSpectral/AuditExplicit.lean": "44f95ee9e7aa727f53f594756623207856155b6e5d43718f3680ad156d16720a",
+    "ChromaticSpectral/Averaging.lean": "39f06549ea7892b1ff6baff5874feae68733b1e4d93c608b2ce8b6b9d4a2c1b5",
+    "ChromaticSpectral/BalancedIsomorphism.lean": "43c6c37e6adef62be67e94d12b6f98b9ac8616619d9f06386813c5fad5d65c5f",
+    "ChromaticSpectral/BalancedPartitions.lean": "570af1ab6262adbbb97161f1fef49873fa462b86416a5802585556d06a3a759b",
+    "ChromaticSpectral/Basic.lean": "de33a2c89e57401fc2158fe1ed631ca35dbe3f4692609db6ff653ecb68414025",
+    "ChromaticSpectral/BernsteinBound.lean": "cb75098b77cfb292de11d6f76267d94f4295fdf82ea4350a9ba7377654abbde7",
+    "ChromaticSpectral/BinomialJensen.lean": "8a3b3d9611b2ac560d1a6e1a9565a738b5ab7db8f174920824bf3788699a2914",
+    "ChromaticSpectral/ChooseConvexity.lean": "bbf4b52342ec36449132896eb1d486b20874b01131cc565c1c69b598c8019143",
+    "ChromaticSpectral/ClassLocalization.lean": "163f5f532d6f5ab40cf40ade9033caee5c30755a25c3c9f6ef28e964043651a7",
+    "ChromaticSpectral/ClassMove.lean": "25051a26e345be93250badb35595ed89f1205ad92be394583f7988395c9288ba",
+    "ChromaticSpectral/ClassOrder.lean": "673abdb668f49f3577d3c98f49f7d33d62e026e5acfc493a344d8ba968f6d6be",
+    "ChromaticSpectral/ClassStationarity.lean": "2755b1795f4aed53fabec3b44a9d3946bd26e9e24c99e0d7e9ec33e16f1c67f3",
+    "ChromaticSpectral/Coloring.lean": "513be47a86fc15cabcde24d70ae17dc7fe2e6dbb6c989e9cfdf5fcba29165aba",
+    "ChromaticSpectral/CompleteAveraging.lean": "848af8bfec3da2fef09f87c0f4120144739cba7c8c66468f49902abfe1edb3cf",
+    "ChromaticSpectral/CompletePolynomial.lean": "cbb75c62e7b605fbafdabb01f2ea8b8acbaa41fb8f132edcad8f8c18ab5a4c3e",
+    "ChromaticSpectral/ConstantBlock.lean": "090e59d7a8045b4f3f78c5445ce17fb003c1420ab56235580c614c9a0e445879",
+    "ChromaticSpectral/Curvature.lean": "e513b55795f3e5260cf0837f4a76b883da92773a6ff3a4bc0a5c52c000c4d1b5",
+    "ChromaticSpectral/ElementarySymmetric.lean": "b7ea320c33c64a4573bd79c4d2de59c9fa5bad5aa645f428743d0313a2035889",
+    "ChromaticSpectral/Endpoint.lean": "893d571bd02bb4058d1eb1d2ec2a1f9fadc64e858c5213b8f9e5e3080b23929f",
+    "ChromaticSpectral/EsymmConvolution.lean": "160ccc7ba4dbc31ff369ad5967760e95350f2a21e85e294ec3a12b3ba1651199",
+    "ChromaticSpectral/ExplicitTheorem.lean": "1222a648013dd662d45a58faa643ebace422155a49fd4b9b623f1cbe72f9842e",
+    "ChromaticSpectral/ExtremalBalanced.lean": "093518dfb463939fbc0660a2b8cccd3cc8888d0762ddd1f727555bba7da94aec",
+    "ChromaticSpectral/ExtremalColoring.lean": "09ea3430a75b1238135bbee23dd36619e85ebe48ac2b6e5a66baf56ff56d85db",
+    "ChromaticSpectral/GlobalBalancing.lean": "4192269cfacab9727cbcf1e5dcef4a264b9ce499c823a1b5a7a5eda1578d42ab",
+    "ChromaticSpectral/Holder.lean": "5e6dde2724cd822b0196f2fcbeeb21719949f130ba236614f2a80bdb26df7502",
+    "ChromaticSpectral/Interpolation.lean": "5d95343dbee908d1e1b12927b2695a3509ead1d8c2b9c08fc1f58361dc543332",
+    "ChromaticSpectral/Isomorphism.lean": "1b49a16f60ad665ab0e27cf4e6bd7fb6aef4ee0d4c1dc07f44aba4d994a7e0de",
+    "ChromaticSpectral/LocalBalancing.lean": "440fb66f985ee4433ac30ebfa0cf2322f4800facbb212bc15591fdc52a6bbf47",
+    "ChromaticSpectral/LocalBinomial.lean": "dc8be81ce455450d41e4ab990306c4068accc14dd1798503827842aaa9646389",
+    "ChromaticSpectral/LocalBoundary.lean": "bb9039fe2f5ee28503cb815bf31335e758ce4e193a2a9b01cb1831228dd1cf49",
+    "ChromaticSpectral/LocalCross.lean": "d7f908442d6167e2cd94dcc9b901d75742f1b9db7b66de9f2f153bf2a3df6d33",
+    "ChromaticSpectral/LocalLayerIdentity.lean": "22b3ce7a2841f2ca216aa21e36e69bfd91732a756fcc2c08016c4d2b470c823f",
+    "ChromaticSpectral/LocalMass.lean": "96340aca3a89e36146077ac40ea2508263898b58719cf74517262e0956780114",
+    "ChromaticSpectral/LocalRatios.lean": "b9851e77d902a83154f7e525f4854bc7e39d0564dd4460528fe27087e33affea",
+    "ChromaticSpectral/LocalVectorBase.lean": "a67bb2473526adb1065f4b270b6ca51e2a4019613718c500d85f513d0702c480",
+    "ChromaticSpectral/LocalVectorSmoothing.lean": "e8379e603f20ec16166f900ef565436c9fd5c67705eac83a4f3ef50448a1e742",
+    "ChromaticSpectral/LocalizationNumerics.lean": "04f28a1609c4eb81b464023d288d30df2df5d348fa6958ed7a248e0f9437c187",
+    "ChromaticSpectral/Main.lean": "ee9ffae9e4e72b12dcc79e4ca9049f406bb665458ef220762c4c02fa0750adfc",
+    "ChromaticSpectral/NonemptyComplete.lean": "86647db24ebd58273987758def40b5f6cff80ef1d4fafdc7946da84c1d2fbea6",
+    "ChromaticSpectral/Normalization.lean": "4c3f1badc9d3a6f67296e959d25fda5f22220ec64fab139f67d1cfa95c850655",
+    "ChromaticSpectral/OneSignChange.lean": "bee9b5ee8d3f3412968a777e9e2624fc1e517cf571d3d9c08f0a5903600e3769",
+    "ChromaticSpectral/OrderedSign.lean": "618c8caee69ba3eea269c2d0e0b416ab2e6bad1a44d45e23cd1f4d94d7b82794",
+    "ChromaticSpectral/Positivity.lean": "aebd82962c30e566a5da907bf2859ffceebdb7caa9cb8123d131486e3dd7aa59",
+    "ChromaticSpectral/RealChoose.lean": "2dbd94ed97a3f026e4fd212a8b284ef6d88e6e0536bbfedb790d1b348cbb0e85",
+    "ChromaticSpectral/SemanticChecks.lean": "341d72461c85312c2791cfc2f81d30c0f7768d48a09444597d9c37ce5d800526",
+    "ChromaticSpectral/SpectralBasic.lean": "84c54c6d0d318647139c0078dbd1c2c41ad3ed479dc3b66291465025bed18105",
+    "ChromaticSpectral/SpectralTransfer.lean": "1333ebdc993c47b3ecd0b46fb43ff947cf06eed3ae36e45bda5b52b78b993eb2",
+    "ChromaticSpectral/SymmetricMean.lean": "7ba4ef3a4477fe74629acbd011690f26d1f3a41e539c4ca801f4037a328e3889",
+    "ChromaticSpectral/Theorem13.lean": "3c2e70f9f731f648f709919497dd5d911de088de7425b87a774dd9a7844d53c4",
+    "ChromaticSpectral/TruncatedMoments.lean": "80f669578033bcbef4227c231bb250cb7013118d59d233d7192457053e5d10fb",
+    "ChromaticSpectral/TruncatedSupport.lean": "5bfe234f8d259a7782cd64bc98ed986b0a920ee802b0ba11420999977c820fea",
+    "ChromaticSpectral/TwoCoordinate.lean": "e8449edd3c83c06a266839781f1e8a3fad9b9cda8bf6a26302695c8718be69df",
+    "ChromaticSpectral/WeightedBinomial.lean": "9dfd61a8b7b31a605b937bf8ca419bb852308f2f2410d2eb1debce9da88e398b",
+    "ChromaticSpectral.lean": "c2719bd6d3ca53fa05ae753c5404d67e98df73978936136d3aec3ddcdd6ae620",
+    "Examples.lean": "9ac0c883a45d6420b1a974744eadd084e5fdeeaf7e9d7119a503e3efe8d92a0c",
+    "LocalAxiomAudit.lean": "ef3b8753cbb2af1b48cffe2a9e9fbbae4e7d8f229169cfa0243606d114a13394"
+  }
+}

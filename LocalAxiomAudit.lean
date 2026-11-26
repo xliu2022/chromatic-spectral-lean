@@ -1,0 +1,9 @@
+module
+import ChromaticSpectral.LocalVectorSmoothing
+
+#print axioms ChromaticSpectral.oneSignChange_pos_above
+#print axioms ChromaticSpectral.rpow_sum_lt_of_truncatedMoment_le
+#print axioms ChromaticSpectral.gap_boundary_rpow_lt
+#print axioms ChromaticSpectral.pureCross_mass_lt
+#print axioms ChromaticSpectral.constantBlock_reduce
+#print axioms ChromaticSpectral.exists_localSmoothingWitness
